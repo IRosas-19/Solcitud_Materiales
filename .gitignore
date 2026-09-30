@@ -1,0 +1,26 @@
+# Environment variables / Credentials (¡NUNCA SUBIR A GITHUB!)
+.env
+client_secret.json
+token.json
+
+# Carpetas de ejecucion y archivos locales generados
+generados/
+*.xlsx
+!3. VALE DE MOVIMIENTOS INTERNOS.xlsx
+
+# Entornos virtuales de Python
+venv/
+env/
+ENV/
+.venv/
+
+# Cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDEs / Editores de codigo
+.vscode/
+.idea/
+*.swp
+.DS_Store
